@@ -35,15 +35,24 @@ public class AppConfig extends WebMvcConfigurationSupport implements SchedulingC
 	@Autowired
 	Environment env;
 	
-	@Bean
-	public JpaVendorAdapter mssqlJpaVendorAdapter() {
-		HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
-		jpaVendorAdapter.setShowSql(true);
-		jpaVendorAdapter.setDatabase(Database.SQL_SERVER);
-
-		return jpaVendorAdapter;
-	}
-
+//	@Bean
+//	public JpaVendorAdapter mssqlJpaVendorAdapter() {
+//		HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
+//		jpaVendorAdapter.setShowSql(true);
+//		jpaVendorAdapter.setDatabase(Database.SQL_SERVER);
+//
+//		return jpaVendorAdapter;
+//	}
+//
+//	@Bean
+//	public JpaVendorAdapter mysqlJpaVendorAdapterShare() {
+//		HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();
+//		jpaVendorAdapter.setShowSql(true);
+//		jpaVendorAdapter.setDatabase(Database.SQL_SERVER);
+//
+//		return jpaVendorAdapter;
+//	}
+	
 	@Bean
 	public JpaVendorAdapter mysqlJpaVendorAdapter() {
 		HibernateJpaVendorAdapter jpaVendorAdapter = new HibernateJpaVendorAdapter();

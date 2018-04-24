@@ -48,7 +48,7 @@ public class MssqlShareConfig {
 				"org.hibernate.cfg.DefaultNamingStrategy");
 		jpaProperties.setProperty("hibernate.show_sql","false");
 		lef.setJpaProperties(jpaProperties);
-		lef.setPersistenceUnitName("mssqlPersistenceUnit");
+		lef.setPersistenceUnitName("mssqlPersistenceUnitShare");
 		lef.afterPropertiesSet();	
 		return lef.getObject();
 	}

@@ -101,7 +101,7 @@ public class TClientBaseInfo{
 	private String FUseSpan;
 	private String FHkexMarcket;
 	private String FHkexMarketFee;
-	private String MOdifyDate;
+	private String modifyDate;
 	private String FOpenType;
 	private String FClientQuestion;
 	private String FClientAnswer;
@@ -286,7 +286,7 @@ public class TClientBaseInfo{
 	public String getFBank() {
 		return FBank;
 	}
-	public void setFBankk(String fBank) {
+	public void setFBank(String fBank) {
 		FBank = fBank;
 	}
 	@Column(name="FAccount")
@@ -314,7 +314,7 @@ public class TClientBaseInfo{
 	public String getFSex() {
 		return FSex;
 	}
-	public void setFSexx(String fSex) {
+	public void setFSex(String fSex) {
 		FSex = fSex;
 	}
 	@Column(name="FExpiryDate")
@@ -328,7 +328,7 @@ public class TClientBaseInfo{
 	public String getFMailAddress() {
 		return FMailAddress;
 	}
-	public void setFMailAddresss(String fMailAddress) {
+	public void setFMailAddress(String fMailAddress) {
 		FMailAddress = fMailAddress;
 	}
 	@Column(name="FImage")
@@ -356,11 +356,11 @@ public class TClientBaseInfo{
 	public String getFMailMode() {
 		return FMailMode;
 	}
-	public void setFMailModee(String fMailMode) {
+	public void setFMailMode(String fMailMode) {
 		FMailMode = fMailMode;
 	}
 	@Column(name="FBirthDay")
-	public String getFBirthDayy() {
+	public String getFBirthDay() {
 		return FBirthDay;
 	}
 	public void setFBirthDay(String fBirthDay) {
@@ -370,7 +370,7 @@ public class TClientBaseInfo{
 	public String getFSendPhone() {
 		return FSendPhone;
 	}
-	public void setFSendPhonee(String fSendPhone) {
+	public void setFSendPhone(String fSendPhone) {
 		FSendPhone = fSendPhone;
 	}
 	@Column(name="FSalesName")
@@ -391,7 +391,7 @@ public class TClientBaseInfo{
 	public String getFSalesPhone() {
 		return FSalesPhone;
 	}
-	public void setFSalesPhonee(String fSalesPhone) {
+	public void setFSalesPhone(String fSalesPhone) {
 		FSalesPhone = fSalesPhone;
 	}
 	@Column(name="FEmail")
@@ -426,7 +426,7 @@ public class TClientBaseInfo{
 	public String getFMultiLogin() {
 		return FMultiLogin;
 	}
-	public void setFMultiLoginn(String fMultiLogin) {
+	public void setFMultiLogin(String fMultiLogin) {
 		FMultiLogin = fMultiLogin;
 	}
 	@Column(name="FireTicket")
@@ -454,7 +454,7 @@ public class TClientBaseInfo{
 	public String getFCmemarket() {
 		return FCmemarket;
 	}
-	public void setFCmemarkett(String fCmemarket) {
+	public void setFCmemarket(String fCmemarket) {
 		FCmemarket = fCmemarket;
 	}
 	@Column(name="FCBT_Market")
@@ -468,7 +468,7 @@ public class TClientBaseInfo{
 	public String getFComexMarket() {
 		return FComexMarket;
 	}
-	public void setFComexMarkett(String fComexMarket) {
+	public void setFComexMarket(String fComexMarket) {
 		FComexMarket = fComexMarket;
 	}
 	@Column(name="FNYMEX_Market")
@@ -517,7 +517,7 @@ public class TClientBaseInfo{
 	public String getFNymexMarketFee() {
 		return FNymexMarketFee;
 	}
-	public void setFNymexMarketFeee(String fNymexMarketFee) {
+	public void setFNymexMarketFee(String fNymexMarketFee) {
 		FNymexMarketFee = fNymexMarketFee;
 	}
 	@Column(name="FSubClientNo")
@@ -615,14 +615,14 @@ public class TClientBaseInfo{
 	public String getFIceEfMarketFee() {
 		return FIceEfMarketFee;
 	}
-	public void setFIceEfMarketFeee(String fIceEfMarketFee) {
+	public void setFIceEfMarketFee(String fIceEfMarketFee) {
 		FIceEfMarketFee = fIceEfMarketFee;
 	}
 	@Column(name="FICE_MarketFeeWay")
 	public String getFIceMarketFeeWay() {
 		return FIceMarketFeeWay;
 	}
-	public void setFIceMarketFeeWayy(String fIceMarketFeeWay) {
+	public void setFIceMarketFeeWay(String fIceMarketFeeWay) {
 		FIceMarketFeeWay = fIceMarketFeeWay;
 	}
 	@Column(name="FRiskLevel")
@@ -650,7 +650,7 @@ public class TClientBaseInfo{
 	public String getFOpenIdentity() {
 		return FOpenIdentity;
 	}
-	public void setFOpenIdentityy(String fOpenIdentity) {
+	public void setFOpenIdentity(String fOpenIdentity) {
 		FOpenIdentity = fOpenIdentity;
 	}
 	@Column(name="FShareHolder")
@@ -717,11 +717,11 @@ public class TClientBaseInfo{
 		FHkexMarketFee = fHkexMarketFee;
 	}
 	@Column(name="ModifyDate")
-	public String getMOdifyDate() {
-		return MOdifyDate;
+	public String getModifyDate() {
+		return modifyDate;
 	}
-	public void setMOdifyDate(String mOdifyDate) {
-		MOdifyDate = mOdifyDate;
+	public void setModifyDate(String modifyDate) {
+		this.modifyDate = modifyDate;
 	}
 	@Column(name="FOpenType")
 	public String getFOpenType() {

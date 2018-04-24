@@ -18,7 +18,7 @@ public class TClientDefaultFee{
 	private int FCommodityID;
 	private BigDecimal FbFee;
 	private BigDecimal FdFee;
-	private String FModifyDate;
+	private String fModifyDate;
 	private String FCurrencyNo;
 	private String FMatchWay;
 	
@@ -45,11 +45,11 @@ public class TClientDefaultFee{
 		FdFee = fdFee;
 	}
 	@Column(name="FModifyDate")
-	public String getFModifyDate() {
-		return FModifyDate;
+	public String getfModifyDate() {
+		return fModifyDate;
 	}
-	public void setFModifyDate(String fModifyDate) {
-		FModifyDate = fModifyDate;
+	public void setfModifyDate(String fModifyDate) {
+		this.fModifyDate = fModifyDate;
 	}
 	@Column(name="FCurrencyNo")
 	public String getFCurrencyNo() {

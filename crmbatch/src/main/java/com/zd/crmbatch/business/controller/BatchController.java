@@ -6,14 +6,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.zd.crmbatch.business.service.BatchService;
+import com.zd.crmbatch.business.service.SettleService;
 
 @Controller
 @RequestMapping("/operate")
 public class BatchController {
 
 	@Autowired
-	private BatchService batchService;
+	private SettleService batchService;
 	
 	@RequestMapping(value="/clientcash",method = {RequestMethod.GET,RequestMethod.POST},produces = "application/json; charset=utf-8")
 	@ResponseBody

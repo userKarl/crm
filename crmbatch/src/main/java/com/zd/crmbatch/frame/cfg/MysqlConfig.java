@@ -42,7 +42,7 @@ public class MysqlConfig {
 		lef.setDataSource(dataSource());
 
 		lef.setJpaVendorAdapter(mysqlJpaVendorAdapter);
-		lef.setPackagesToScan("com.zd.crmbatch.business.entity");
+		lef.setPackagesToScan("com.zd.crmbatch.business.entity","com.zd.crmbatch.business.mssqlshare.entity");
 		Properties jpaProperties = new Properties();
 		jpaProperties.setProperty("hibernate.ejb.naming_strategy",
 				"org.hibernate.cfg.DefaultNamingStrategy");

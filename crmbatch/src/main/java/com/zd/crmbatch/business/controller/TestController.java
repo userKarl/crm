@@ -18,7 +18,7 @@ import com.zd.crmbatch.business.mssql.dao.MSTClientCashDao;
 import com.zd.crmbatch.business.mssql.dao.MSTMatchDao;
 import com.zd.crmbatch.business.mysql.dao.ClientCashDateDao;
 import com.zd.crmbatch.business.mysql.dao.TClientCashDao;
-import com.zd.crmbatch.business.service.BatchService;
+import com.zd.crmbatch.business.service.SettleService;
 
 
 @Controller

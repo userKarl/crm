@@ -22,7 +22,7 @@ public class TClientGroupFee{
 	private int FCommodityGroupID;
 	private BigDecimal FbFee;
 	private BigDecimal FdFee;
-	private String FModifyDate;
+	private String fModifyDate;
 
 	@Id
 	@Column(name="FClientNo")
@@ -55,13 +55,12 @@ public class TClientGroupFee{
 		FdFee = fdFee;
 	}
 	@Column(name="FModifyDate")
-	public String getFModifyDate() {
-		return FModifyDate;
+	public String getfModifyDate() {
+		return fModifyDate;
 	}
-	public void setFModifyDate(String fModifyDate) {
-		FModifyDate = fModifyDate;
+	public void setfModifyDate(String fModifyDate) {
+		this.fModifyDate = fModifyDate;
 	}
-	
 	
 
 }
